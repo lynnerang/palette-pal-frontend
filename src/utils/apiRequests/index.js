@@ -1,6 +1,6 @@
 
 let baseUrl;
-if (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') {
+if (process.env.NODE_ENV === 'test' || process.env.NODE_ENV === 'development') {
   baseUrl = 'http://localhost:3005/';
 } else {
   baseUrl = 'https://palette-pal-be.herokuapp.com/';
