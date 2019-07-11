@@ -1,9 +1,4 @@
-let baseUrl;
-if (process.env.ON_HEROKU == 1) {
-  baseUrl = 'https://palette-pal-be.herokuapp.com/';
-} else {
-  baseUrl = 'http://localhost:3005/';
-}
+let baseUrl = 'https://palette-pal-be.herokuapp.com/';
 
 export const urls = {
 	projWithPaletes: `${baseUrl}api/v1/projects?palettes=included`,
