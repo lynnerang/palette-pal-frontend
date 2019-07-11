@@ -1,11 +1,11 @@
-let baseUrl = 'https://palette-pal-be.herokuapp.com/';
+// let baseUrl = 'https://palette-pal-backend.herokuapp.com/';
 
 export const urls = {
-	projWithPaletes: `${baseUrl}api/v1/projects?palettes=included`,
-	projects: `${baseUrl}api/v1/projects`,
-	palettes: `${baseUrl}api/v1/palettes`,
-	signUp: `${baseUrl}auth/signup`,
-	login: `${baseUrl}auth/login`
+	projWithPaletes: 'https://palette-pal-backend.herokuapp.com/api/v1/projects?palettes=included',
+	projects: 'https://palette-pal-backend.herokuapp.com/api/v1/projects',
+	palettes: 'https://palette-pal-backend.herokuapp.com/api/v1/palettes',
+	signUp: 'https://palette-pal-backend.herokuapp.com/auth/signup',
+	login: 'https://palette-pal-backend.herokuapp.com/auth/login'
 };
 
 const requests = {
